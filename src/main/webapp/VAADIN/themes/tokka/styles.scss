@@ -1,0 +1,13 @@
+@import "../touchkit/touchkit.scss";
+
+
+.tokka {
+
+	@include touchkit;
+	
+	.done {
+		.v-touchkit-navbutton-desc {
+			color: green;
+		}
+	}
+}
